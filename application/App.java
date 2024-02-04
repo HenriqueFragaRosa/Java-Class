@@ -1,3 +1,4 @@
+// This is a static method that create two triangles and compare their areas.
 package application;
 
 import java.util.Scanner;
@@ -11,14 +12,16 @@ public class App {
         Triangle y = new Triangle();
 
         System.out.println("Enter the measures of triangle X : ");
-        x.a = scanner.nextDouble();
-        x.b = scanner.nextDouble();
-        x.c = scanner.nextDouble();
+        System.out.println("height : ");
+        x.height = scanner.nextDouble();
+        System.out.println("base : ");
+        x.base = scanner.nextDouble();
 
         System.out.println("Now enter the measures of triangle Y : ");
-        y.a = scanner.nextDouble();
-        y.b = scanner.nextDouble();
-        y.c = scanner.nextDouble();
+        System.out.println("height : ");
+        y.height = scanner.nextDouble();
+        System.out.println("base : ");
+        y.base = scanner.nextDouble();
 
         System.out.println(x.toString());
         System.out.println(y.toString());
